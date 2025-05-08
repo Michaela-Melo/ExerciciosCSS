@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOUTH COFFEE</title>
+    <style>
+       
+         body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%; /*Utilizado para o efeito Paralax*/
+        }
+        .cabe {
+            width: 100%;
+            height: 100px;
+            background-color: #91C2A1;
+            font-family:'https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap' ;
+        }
+
+        input {
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: white;
+            border: solid rgb(1, 1, 1) 1.5px;
+            border-radius: 10px;
+            /*Características para colocar a imagem da Lupa dentro do Input*/
+            background-image: url(img/lupa.png);
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            padding: 5px;
+            /*Características para posição dentro do cabeçalho*/
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+            
+        }
+
+        .logo {
+            float: left;
+            text-indent: 20px;
+            width: 20%;
+        }
+        /*Características feitas apenas para a lista (ul) dentro da class .cabe*/
+        .cabe ul {
+            float: left;
+            width: 50%;
+            margin: 0px 0px 0px 20px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .cabe ul li {
+            text-decoration: none;
+            display: inline; /*Torna a lista horizontal*/
+            padding: 40px;
+            color:#033313;
+            font-family:'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .cabe ul li:hover {
+            color:#033313
+        }
+        /*Características para imagens de fundo que dão o efeito paralax*/
+        .box1,.box2,.box3,.box4 {
+            position: relative;
+            height: 100%;
+            opacity: 1.0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .box1 {
+            background-image: url(img/Gif e Vídeos/Gif Sprint 2.gif);
+        }
+
+        .box2 {
+            background-image: url(img/coffeesouth1.png);
+        }
+
+        .box3 {
+            background-image: url();
+        }
+
+        .box4 {
+            background-image: url();
+        }
+
+        
+        .conteudo {
+            background-color: #e3e8dd;
+            color: #91C2A1;
+            text-align:left;
+            padding: 50px 100px 40px 100px;
+            background-image: url(img/Banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            color: rgb(13, 66, 13);
+            text-align: left;
+        }
+
+        .roda {
+            margin-top: -20px;
+            height: 330px;
+            background-color: #e3e8dd;
+        }
+
+        .roda .down_up {
+            text-align: center;
+            color: rgb(13, 66, 13);
+            font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
+            font-size: 4em;
+        }
+
+        .roda .down_meio {
+            text-align: center;
+            color: rgb(13, 66, 13);
+            font-family: 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@615&display=swap';
+            font-size: 1.5em;
+            text-align: left;
+        }
+
+        .roda .down_down {
+            text-align: left;
+        }
+
+        .roda .down_down img {
+            width: 40px;
+            border-radius: 25px;
+            border: 4px rgb(13, 66, 13) dotted;
+            cursor: pointer;
+            margin: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabe">
+        <div class="logo">
+            <img src="">
+        </div>
+        <div>
+            <ul>
+                <li>Início</li>
+                <li>Sobre Nós</li>
+                <li>Cardápio</li>
+                <li>Cadastro</li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+    </div>
+    <div>
+        <figure>
+            <img src="img/Banner.png">
+        </figure>
+    </div>
+    <div class="box1">
+    </div>
+    <div class="conteudo">
+        <h2>South Coffee</h2>
+        <p>A South Cooffee é muito mais do que uma simples cafeteria — é um ponto de encontro acolhedor onde o aroma do café fresco se mistura ao charme de um ambiente cuidadosamente pensado para receber todos com conforto e simpatia. Localizada em um espaço convidativo, a cafeteria se destaca pela qualidade dos grãos selecionados, extraídos com maestria por baristas atenciosos que entendem a arte de preparar uma boa xícara.
+
+            Com um cardápio que vai além do café tradicional, a South Cooffee oferece desde expressos intensos até bebidas autorais e opções geladas, acompanhadas por doces artesanais e lanches leves preparados com ingredientes frescos. Cada detalhe, da decoração ao atendimento, transmite a paixão pelo café e pelo bem-estar dos clientes.
+            
+            Frequentada por quem busca um refúgio tranquilo no meio da rotina ou um espaço ideal para conversas e encontros, a South Cooffee conquistou seu lugar no coração de quem valoriza qualidade, sabor e boas experiências.</p>
+    </div>
+    <div class="box2">
+    </div>
+    <div class="conteudo">
+       <p>Fundada há dois anos, a South Cooffee nasceu do sonho de criar um espaço onde o café fosse mais do que uma bebida — fosse uma experiência. Desde o primeiro dia, nosso propósito foi oferecer um ambiente acolhedor, com cafés de alta qualidade e um atendimento que fizesse cada pessoa se sentir em casa.
+
+        Começamos com uma pequena equipe, muita paixão e o desejo de fazer diferente. Em pouco tempo, conquistamos o carinho dos nossos clientes com receitas exclusivas, grãos selecionados e aquele toque artesanal que faz toda a diferença. Aos poucos, crescemos — mas sem perder a essência: servir com amor, atenção aos detalhes e respeito por cada história que entra pela nossa porta.
+        
+        Hoje, após dois anos de história, a South Cooffee se tornou referência na região, um ponto de encontro para conversas, trabalho, descanso e, claro, bons cafés. Seguimos inovando, ouvindo nossos clientes e buscando sempre surpreender, sem abrir mão do que nos trouxe até aqui: qualidade, acolhimento e paixão pelo que fazemos.
+        
+        O melhor ainda está por vir!
+        </p>
+    </div>
+    <div class="box3">
+    </div>
+    <div class="conteudo">
+        <p> Desde o dia 03 de maio de 2023, a South Cooffee vem construindo uma história baseada em sabor, acolhimento e conexão. Cada xícara servida representa nossa dedicação em criar momentos únicos para quem nos visita — seja para um café rápido ou para longas conversas em um ambiente tranquilo e convidativo.
+
+            Ao longo desses dois anos, crescemos junto com nossos clientes. E como parte dessa evolução, damos um novo passo: lançamos nosso site oficial! Agora ficou muito mais fácil e rápido conhecer tudo o que a South Cooffee tem a oferecer, fazer seus pedidos online, realizar cadastros e acompanhar nossas novidades de onde estiver.
+            
+            Essa novidade é só o começo. Continuamos com o mesmo propósito: servir com qualidade, carinho e inovação. Seja bem-vindo a essa nova fase da South Cooffee — o seu café, agora ainda mais perto de você.</p>
+    </div>
+    <div class="box4">
+    </div>
+    <div class="roda">
+        <br><br><br>
+        
+        <div class="down_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>#SOUTHCOFFEE</div>
+        <div class="down_down">
+            <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/face_logo_02.png"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whats_logo_01.png"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/inst_logo_01.png"></a>
+        </div>
+    </div>
+</body>
+</html>

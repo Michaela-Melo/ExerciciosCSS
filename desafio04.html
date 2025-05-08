@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-04</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #edd9c4;
+        }
+        input{
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+            border: solid #111 1.5px;
+            border-radius: 10px;
+            background-image: url(img/64673.png);
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+        }
+         header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        main{
+            margin-top: 260px;
+        }
+        p{
+           text-align: justify;
+           line-height: 1.5em;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           padding: 10px 30px;
+           color: black;
+        }
+        .menu_top{
+            width: 100%;
+            height: 170px;
+            border-bottom: 3px solid #693412;
+            border-top: 10px solid #693412;
+        }
+        .top_esp{
+            width: 140px;
+            float: left;
+            padding: 10px;
+        }
+        .top_dir{
+            float: left;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 100px;
+            color: #4a2a16;
+            padding-left: 9%;
+            padding-top: 20px;
+        }
+        .menu_down{
+            background:#36c8f0;
+            height: 40px;      
+        }
+        .menu{
+            position: relative;
+            top: -10px;
+            padding: 10px;
+        }
+        .clear{
+            clear: both;
+        }
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        .menu{
+            background-color: #693412;
+            width: 100%;
+            height: 40px;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 800px;
+        }
+        .menu ul li{          
+            background-color: rgb#553105;
+            color: #ffcd97;
+            float: left;
+            width: 150px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color:rgb(205, 121, 47); 
+        }
+        
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+           
+        }
+        .menu ul ul li{
+             background-color:rgb(88, 48, 2);
+        }
+        .menu ul ul li:hover{
+            background-color:rgb(205, 121, 47); 
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgb(205, 121, 47); 
+        }
+        .flat_esq{
+            float: left;
+            margin: 6.2%;
+        }
+        .flat_meio{
+            float: left;
+            margin: 6.2%;
+        }
+        .flat_dir{
+            float:left;
+            margin: 6.2%;
+        }
+        .clear{
+            clear: both;
+        }
+        .roda{
+            margin-top: 20px;
+            height: 330px;
+            background-color: #e3e8dd;
+        }
+        button{
+            float: right;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu_top">
+        <div class="top_esp">
+        <figure>
+        <img src="img/Ovo.png" alt="logo" height="140px">
+        </figure>
+        </div>
+        <div class="top_dir">
+        CHOC CHOC CHOC
+      <input class="pesq" type="text" placeholder="Pesquisa">
+      <button>Ok</button>
+        </div>
+        <div class="clear"></div>
+        <div class="menu_down">
+        <nav class="menu">
+            <a href="">
+            <ul>
+                <li>HOME</li>
+                <li>DOCES
+                    <ul>
+                        <li>350g</li>
+                        <li>500g</li>
+                        <li>1000g</li>
+                        <li>OUTROS
+                            <ul>
+                            <li>1500g</li>
+                            <li>2000g</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>OVOS</li>
+                <li>Kits</li>
+                <li>SOBRE</li>
+            </ul>
+            </a> 
+        </nav>
+        </div>
+        </header>
+         <main>
+            <div class="meio">
+                <img src="img/grão (1350 x 1080 px) (5986 x 2025 px).png" alt="banner" width="100%" style="margin-top: -40px;">
+            </div>
+            <div>
+                <figure class="flat_esq">
+                    <img src="img/pascoa1.jfif"  width="300" height="400" >
+                </figure>
+                <figure class="flat_meio">
+                    <img src="img/pascoa2.jfif"  width="300" height="400">
+                </figure>
+                <figure class="flat_dir">
+                    <img src="img/pascoa3.jfif"  width="300" height="400">
+                </figure>
+            </div>
+            <div class="clear"></div>
+            <div>
+                <figure class="flat_esq">
+                    <img src="img/pascoa4.jfif"  width="300" height="400">
+                </figure>
+                <figure class="flat_meio">
+                    <img src="img/pascoa5.jfif"  width="300" height="400">
+                </figure>
+                <figure class="flat_dir">
+                    <img src="img/pascoa6.jfif"  width="300" height="400">
+                </figure>
+            </div>
+            <div class="clear"></div>
+         </main>
+</body>
+</html>
