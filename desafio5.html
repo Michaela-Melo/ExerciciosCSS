@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+    <style>
+          *{
+          margin: 0;
+          padding: 0;
+        }
+        .conteiner{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+        .itemA{
+            width: 70%;
+
+            border-radius: 10px;
+        }
+
+        .itemB{
+            width: 25%;
+       
+            border-radius: 10px;
+        }
+
+         .menu{
+            background-color: #000000;
+            width: 100%;
+            height: 40px;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 500px;
+        }
+        .menu ul li{          
+            background-color: #000000;
+            color: white;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color: #c00000; 
+        }
+        
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        h2{
+            text-align: center;
+            color: grey;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <li>Home</li>
+            <li>Lazer</li>
+            <li>Esportes</li>
+            <li>Corridas</li>
+            <li>E-sports</li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <div class="">
+        <figure>
+            <img src="img/sesi banner.jpg" width="100%">
+        </figure>
+    </div>
+
+    <br>
+
+    <div class="conteiner">
+        <div class="itemA">
+            <h2><i>Notícias</i></h2>
+            <figure>
+                <img src="img/sesi flex1.png" width="97%">
+            </figure>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed culpa cum sunt in adipisci eveniet quisquam rem aut, ullam, laudantium architecto eum aliquid minima harum beatae quo. Dolorem, voluptatum magni! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ducimus porro vel fugit nulla officia provident in quia quibusdam id autem, hic qui fuga, consequuntur pariatur! Excepturi nostrum corporis quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad modi quae blanditiis labore repellendus quam nobis fuga obcaecati perferendis id, quidem cumque aperiam corrupti aliquid molestiae eos! Deserunt, minima.</p>
+        </div>
+
+                <div class="itemB">
+            <h2><i>Contos</i></h2>
+            <figure>
+                <img src="img/velho empresario.jpg" width="100%">
+            </figure>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed culpa cum sunt in adipisci eveniet quisquam rem aut, ullam, laudantium arc sit amet consecupti aliquid molestiae eos! Deserunt, minima.</p>
+        </div>
+    </div>
+</body>
+</html>
